@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.hasee.mywx.RegisterActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <Button
+
+        android:id="@+id/register_bt"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:background="#009100"
+        android:gravity="center"
+        android:text="注册"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.689"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.141" />
+
+    <Button
+
+        android:id="@+id/exit"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:background="#e0e0e0"
+        android:gravity="center"
+        android:text="退出"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintVertical_bias="0.689" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/pswEt"
+        android:layout_width="336dp"
+        android:layout_height="47dp"
+
+        android:gravity="center"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.33"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+    <EditText
+
+        android:id="@+id/psw2Et"
+        android:layout_width="336dp"
+        android:layout_height="47dp"
+
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:hint="确认密码"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <EditText
+        android:id="@+id/userEt"
+        android:layout_width="336dp"
+        android:layout_height="47dp"
+
+        android:layout_weight="1.63"
+
+        android:gravity="center"
+        android:hint="QQ号/微信号/手机号"
+        android:inputType="number"
+        android:textCursorDrawable="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.174"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
